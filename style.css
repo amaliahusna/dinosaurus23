@@ -10,3 +10,14 @@ img {
 .konten {
     height:5px;border-width:0;background-color:black;
 }
+@media only screen and (max-width: 480px) {
+    img {
+        width: 150px;
+        height: 150px;
+        position: absolute;
+        top: 75px;
+        left: 40%;
+        transform: translateX(-40%);
+    }
+
+}
